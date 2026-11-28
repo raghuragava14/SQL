@@ -37,3 +37,4 @@ FROM information_schema.columns
 WHERE table_schema NOT IN ('pg_catalog', 'information_schema')
   AND table_name IN ('class_room', 'course', 'customers', 'orders', 'products')
 ORDER BY table_schema, table_name, ordinal_position;
+
